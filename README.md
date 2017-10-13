@@ -65,7 +65,7 @@ Instread, use the flash script `flash.sh` from `jetpack`:
 * [Extlinux: Jetson DTB](https://elinux.org/Jetson/TX2_DTB)
 
 **TX1**:
-1. Replace the existing `.dtb` file: `JetPack/3.1/64_TX1/Linux_for_Tegra_64_tx1/kernel/dtb/tegra210-jetson-tx1-p2597-2180-a01-devkit.dtb`
+1. Replace the existing `.dtb` file: `JetPack/3.1/64_TX1/Linux_for_Tegra_64_tx1/kernel/dtb/tegra210-jetson-tx1-p2597-2180-a01-devkit.dtb` with `tegra210-jetson-tx1-p2597-2180-a01-devkit-hdmi2csi.dtb`
 2. Flash the DTB partition: `$ sudo ./flash -r -k DTB jetson-tx1 mmcblk0p1`
 
 **TX2**:
