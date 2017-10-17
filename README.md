@@ -29,7 +29,7 @@ $ export CROSS_COMPILE=<aarch64_toolchain_prefix>
 # TX1
 $ make tegra21_hdmi2csi_defconfig
 # TX2
-$ make tegra18_defconfig
+$ make tegra18_hdmi2csi_defconfig
 
 # Build the kernel, modules and dtb files
 $ make -j8
@@ -69,5 +69,5 @@ Instread, use the flash script `flash.sh` from `jetpack`:
 2. Flash the DTB partition: `$ sudo ./flash.sh -r -k DTB jetson-tx1 mmcblk0p1`
 
 **TX2**:
-1. Replace the existing `.dtb` file: `JetPack/3.1/64_TX2/Linux_for_Tegra_64_tx2/kernel/dtb/tegra186-quill-p3310-1000-c03-00-base.dtb`
+1. Replace the existing `.dtb` file: `JetPack/3.1/64_TX2/Linux_for_Tegra_64_tx2/kernel/dtb/tegra186-quill-p3310-1000-c03-00-base.dtb` with `tegra186-quill-p3310-1000-c03-00-base-hdmi2csi.dtb`
 2. Flash the DTB partition: `$ sudo ./flash.sh -r -k kernel-dtb jetson-tx2 mmcblk0p1`

@@ -30,7 +30,7 @@
 	url = git://nv-tegra.nvidia.com/device/hardware/nvidia/platform/t18x/common.git
 [submodule "hardware/nvidia/platform/t18x/quill"]
 	path = hardware/nvidia/platform/t18x/quill
-	url = git://nv-tegra.nvidia.com/device/hardware/nvidia/platform/t18x/quill.git
+	url = http://github.com/InES-HPMM/linux-l4t-4.4-hardware-t18x-quill.git
 [submodule "hardware/nvidia/soc/t210"]
 	path = hardware/nvidia/soc/t210
 	url = git://nv-tegra.nvidia.com/device/hardware/nvidia/soc/t210.git
