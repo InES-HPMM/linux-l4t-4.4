@@ -18,6 +18,9 @@ $ git submodule update --init --recursive
 
 ## Building the Kernel
 
+**NOTE: This is the short version for advanced users. Step-by-step instructions can be found in the
+[Custom Kernel Compilation Wiki](https://github.com/InES-HPMM/linux-l4t-4.4/wiki/customKernelCompilation).**
+
 ```shell
 # Go to the kernel-4.4 directory
 $ cd kernel/kernel-4.4
@@ -36,6 +39,9 @@ $ make -j8
 ```
 
 ## Device Tree
+
+**NOTE: This is the short version for advanced users. Step-by-step instructions can be found in the
+[Custom Kernel Compilation Wiki](https://github.com/InES-HPMM/linux-l4t-4.4/wiki/customKernelCompilation).**
 
 The Device Tree source files of the Linux kernel are located in the *hardware* directory:
 
@@ -60,7 +66,7 @@ $ make dtbs
 
 Do **not** use `extlinux.conf` to define the generated `.dtb` file because *u-boot* makes changes on-the-fly to the Device Tree Blob. Otherwise, the screen might flicker or the kernel stops during the boot process.
 
-Instread, use the flash script `flash.sh` from `jetpack`:
+Instead, use the flash script `flash.sh` from `jetpack` (or alternatively the `Jetson TX1/TX2 64-bit Driver Package`, see [Custom Kernel Compilation Wiki](https://github.com/InES-HPMM/linux-l4t-4.4/wiki/customKernelCompilation)):
 
 * [Extlinux: Jetson DTB](https://elinux.org/Jetson/TX2_DTB)
 
