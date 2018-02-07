@@ -1,6 +1,6 @@
 [submodule "kernel/nvgpu"]
 	path = kernel/nvgpu
-	url = git://nv-tegra.nvidia.com/linux-nvgpu.git
+	url = http://github.com/InES-HPMM/linux-l4t-4.4-kernel-nvgpu.git
 [submodule "hardware/nvidia/platform/t210/jetson"]
 	path = hardware/nvidia/platform/t210/jetson
 	url = http://github.com/InES-HPMM/linux-l4t-4.4-hardware-t210-jetson.git
