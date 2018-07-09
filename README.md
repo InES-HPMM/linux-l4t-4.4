@@ -2,6 +2,8 @@
 
 **l4t 28.2.1: TC358840 driver only tested on TX2.**
 
+After a HDMI input format change the capture application needs sometimes to be restarted. The Nvidia VI4 does not recover from a start of frame timeout (Source: https://devtalk.nvidia.com/default/topic/1028649/jetson-tx2/tegra-vi4-15700000-vi-status-2-channel-00-frame-00/post/5233645/#5233645)
+
 # linux-l4t-4.4
 
 This is the top-level repository for TX1/TX2 **kernel** and **Device Tree**. The Nvidia Source URLs can be found in the *README.md* files of the submodules.
