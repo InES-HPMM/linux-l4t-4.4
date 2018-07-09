@@ -4,6 +4,10 @@
 
 After a HDMI input format change the capture application needs sometimes to be restarted. The Nvidia VI4 does not recover from a start of frame timeout (Source: https://devtalk.nvidia.com/default/topic/1028649/jetson-tx2/tegra-vi4-15700000-vi-status-2-channel-00-frame-00/post/5233645/#5233645)
 
+Already fixed in this repo (Nvidia error, VI fix):
+https://devtalk.nvidia.com/default/topic/1030944/jetson-tx2/nvcsi-image-corruption-with-l4t-r28-2/post/5262207/#5262207
+https://devtalk.nvidia.com/default/topic/1032825/jetson-tx1/camera-outputs-to-1-buffer-only/post/5254771/#5254771
+
 # linux-l4t-4.4
 
 This is the top-level repository for TX1/TX2 **kernel** and **Device Tree**. The Nvidia Source URLs can be found in the *README.md* files of the submodules.
