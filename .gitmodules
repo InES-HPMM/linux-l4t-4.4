@@ -1,9 +1,9 @@
 [submodule "kernel/nvgpu"]
 	path = kernel/nvgpu
-	url = http://github.com/InES-HPMM/linux-l4t-4.4-kernel-nvgpu.git
+	url = git://nv-tegra.nvidia.com/linux-nvgpu.git
 [submodule "hardware/nvidia/platform/t210/jetson"]
 	path = hardware/nvidia/platform/t210/jetson
-	url = http://github.com/InES-HPMM/linux-l4t-4.4-hardware-t210-jetson.git
+	url = git://nv-tegra.nvidia.com/device/hardware/nvidia/platform/t210/jetson.git
 [submodule "kernel/t18x"]
 	path = kernel/t18x
 	url = git://nv-tegra.nvidia.com/linux-t18x.git
@@ -28,9 +28,6 @@
 [submodule "hardware/nvidia/platform/t18x/common"]
 	path = hardware/nvidia/platform/t18x/common
 	url = git://nv-tegra.nvidia.com/device/hardware/nvidia/platform/t18x/common.git
-[submodule "hardware/nvidia/platform/t18x/quill"]
-	path = hardware/nvidia/platform/t18x/quill
-	url = http://github.com/InES-HPMM/linux-l4t-4.4-hardware-t18x-quill.git
 [submodule "hardware/nvidia/soc/t210"]
 	path = hardware/nvidia/soc/t210
 	url = git://nv-tegra.nvidia.com/device/hardware/nvidia/soc/t210.git
@@ -40,6 +37,9 @@
 [submodule "hardware/nvidia/soc/tegra"]
 	path = hardware/nvidia/soc/tegra
 	url = git://nv-tegra.nvidia.com/device/hardware/nvidia/soc/tegra.git
+[submodule "hardware/nvidia/platform/t18x/quill"]
+	path = hardware/nvidia/platform/t18x/quill
+	url = http://github.com/InES-HPMM/linux-l4t-4.4-hardware-t18x-quill.git
 [submodule "kernel/kernel-4.4"]
 	path = kernel/kernel-4.4
 	url = https://github.com/InES-HPMM/linux-l4t-4.4-kernel.git
