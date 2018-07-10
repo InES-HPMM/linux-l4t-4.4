@@ -1,5 +1,5 @@
-# Linux4Tegra 28.2.1 Driver Update
-https://github.com/InES-HPMM/linux-l4t-4.4/tree/hdmi2csi/l4t-r28.2.1
+# [Linux4Tegra 28.2.1 Driver Update](https://github.com/InES-HPMM/linux-l4t-4.4/tree/hdmi2csi/l4t-r28.2.1)
+change to branch hdmi2csi/l4t-r28.2.1: https://github.com/InES-HPMM/linux-l4t-4.4/tree/hdmi2csi/l4t-r28.2.1
 
 # linux-l4t-4.4
 
